@@ -4,15 +4,16 @@ import urllib.parse
 # Function to print the banner
 def banner():
     print()
-    print("   _  __ ____          ______                             ")
-    print("  | |/ // __ \        / ____/__  __ ____ ____  ___   _____")
-    print("  |   // /_/ /______ / /_   / / / //_  //_  / / _ \ / ___/")
-    print(" /   | \__, //_____// __/  / /_/ /  / /_ / /_/  __// /    ")
-    print("/_/|_|/____/       /_/     \__,_/  /___//___/\___//_/     ")
+    print(r"   _  __ ____          ______                             ")
+    print(r"  | |/ // __ \        / ____/__  __ ____ ____  ___   _____")
+    print(r"  |   // /_/ /______ / /_   / / / //_  //_  / / _ \ / ___/")
+    print(r" /   | \__, //_____// __/  / /_/ /  / /_ / /_/  __// /    ")
+    print(r"/_/|_|/____/       /_/     \__,_/  /___//___/\___//_/     ")
     print()
     print("                        Developed by MrCySec    ")
     print()
     print()
+
 
 # Function to clean and decode URLs
 def clean_url(url):
