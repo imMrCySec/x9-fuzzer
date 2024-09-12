@@ -19,14 +19,14 @@ URL Fuzzing Tool. Developed By MrCySec. https://x.com/mrcysec
   2. `chmod +x main.py`
   4. `python3 main.py -h`
   
-### Note
+## Note
 - You can also add path of the tool to your bash or zsh profile to run it everywhere by add the flowing line in `.profile`
 - `alias x9="python3 ~/x9-fuzzer/main.py"`
 - Now you can run tool in every directory
 - `x9 -h`
 
 
-### Tool Options
+## Tool Options
 - `-u` or `--url` : Single URL to edit
 - `-l` or `--url_list` : File with links (not used with -u)
 - `-p` or `--parameters` : File with parameters (required for 'ignore', 'normal', and 'all' strategies)
